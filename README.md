@@ -27,4 +27,8 @@ Please download the pretrained weights from the link below and place the file in
 
 https://drive.google.com/file/d/1AWQzCKeRCfsDdihFIFCxA0VBUFUzuB4O/view?usp=sharing
 
+## 🚀 Inference
 
+```bash
+  python run.py --data_dir <path_to_data> --vvc_encoder <path_to_VTM_EncoderApp> --vvc_decoder <path_to_VTM_DecoderApp> --n_frames 120 --gop_size 30 --source_qp_lst 30 --driving_qp 45 --output_dir ./results
+```
