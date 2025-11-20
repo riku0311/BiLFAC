@@ -1,0 +1,44 @@
+dataset_params:
+  root_dir: 
+  frame_shape: 
+  base_layer: True
+  num_sources: 2
+  augmentation_params:
+    flip_param:
+      horizontal_flip: True
+      time_flip: True
+    jitter_param:
+      brightness: 0.1
+      contrast: 0.1
+      saturation: 0.1
+      hue: 0.1
+
+model_params:
+  common_params:
+    num_kp: 10
+    num_channels: 3
+    estimate_jacobian: False
+  kp_detector_params:
+    temperature: 0.1
+    block_expansion: 32
+    max_features: 1024
+    scale_factor: 0.25
+    num_blocks: 5
+  generator_params:
+    block_expansion: 64
+    max_features: 512
+    num_down_blocks: 2
+    num_bottleneck_blocks: 6
+    estimate_occlusion_map: True
+    dense_motion_params:
+      block_expansion: 64
+      max_features: 1024
+      num_blocks: 5
+      scale_factor: 0.25
+  discriminator_params:
+    scales: [1]
+    block_expansion: 32
+    max_features: 512
+    num_blocks: 4
+    use_kp: True
+
