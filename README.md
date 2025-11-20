@@ -1,6 +1,6 @@
 # Bidirectional Learned Facial Animation Codec for Low Bitrate Talking Head Videos (DCC'25)
 
-Paper: https://arxiv.org/abs/2503.09787
+Paper: [arXiv:2503.09787](https://arxiv.org/abs/2503.09787)
 
 ## 🔧️ Framework
 ![Model Architecture](Architecture.png)
