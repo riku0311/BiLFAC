@@ -18,6 +18,8 @@ Install packages with `pip`
   pip install -r requirements.txt
 ```
 
-Please install the VVC reference software (VTM) and ffmpeg by following the official instructions:
-・VTM (VVCSoftware_VTM): https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM
-・ffmpeg: https://www.ffmpeg.org/download.html
+Please install the VVC reference software (VTM) and FFmpeg by following their official installation guides:
+
+- VTM (VVCSoftware_VTM): https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM  
+- FFmpeg: https://www.ffmpeg.org/download.html
+
