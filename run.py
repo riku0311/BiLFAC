@@ -27,7 +27,7 @@ if __name__ == "__main__":
     parser.add_argument("--keyframe_thresh", type=int, default=33, help="Threshold for keyframe selection")
     parser.add_argument("--n_frames", default=120, type=int, help="Number of frames to compress")
     parser.add_argument("--fps", default=30, type=int, help="")
-    parser.add_argument("--gop_size", type=int, default=32, help="GOP size for compression")
+    parser.add_argument("--gop_size", type=int, default=30, help="GOP size for compression")
     parser.add_argument("--source_qp_lst", nargs='+', type=int, default=[30], help="List of QP values for the reference frames")
     parser.add_argument("--driving_qp", default=45, type=int,help="Compression QP for the driving frames")
     parser.add_argument("--output_dir", default='./results', type=str,help="Output directory for video and metric results")

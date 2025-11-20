@@ -9,6 +9,7 @@ def compress(config_dict, kp_detector, **kwargs):
     data_dir   = kwargs['data_dir']
     model      = kwargs['model']
     output_dir = kwargs['output_dir']
+    fps        = kwargs['fps']
     os.makedirs(os.path.join(output_dir, 'videos'), exist_ok=True)
 
     # ---- build generator ----
@@ -41,8 +42,6 @@ def compress(config_dict, kp_detector, **kwargs):
         input_paths.append(data_dir)
     else:
         raise ValueError(f"Invalid input: {data_dir} is not a video file or directory.")
-
-    fps = kwargs.get('fps', 25)
 
     for process_index, video_path in enumerate(input_paths):
         s_name = os.path.splitext(os.path.basename(video_path))[0]
