@@ -23,3 +23,8 @@ Please install the VVC reference software (VTM) and FFmpeg by following their of
 - VTM (VVCSoftware_VTM): https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM  
 - FFmpeg: https://www.ffmpeg.org/download.html
 
+Please download the pretrained weights from the link below and place the file inside the `./ckpt` directory:
+
+https://drive.google.com/file/d/1AWQzCKeRCfsDdihFIFCxA0VBUFUzuB4O/view?usp=sharing
+
+
