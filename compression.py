@@ -58,11 +58,7 @@ def compress(config_dict, kp_detector, **kwargs):
             output_video_path = os.path.join(video_output_dir, f"{gop_size}_{source_qp}_{s_name}.mp4")
 
             coding_params = dict(kwargs)
-            coding_params.update({
-                "source_qp": source_qp,
-                "fps": fps,
-                "file_name": s_name
-            })
+            coding_params.update({"source_qp": source_qp, "fps": fps, "file_name": s_name})
 
             try:
                 out_frames, total_bits = bilfac.compress(original_frames, **coding_params)

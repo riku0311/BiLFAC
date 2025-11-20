@@ -31,7 +31,6 @@ if __name__ == "__main__":
     parser.add_argument("--source_qp_lst", nargs='+', type=int, default=[30], help="List of QP values for the reference frames")
     parser.add_argument("--driving_qp", default=45, type=int,help="Compression QP for the driving frames")
     parser.add_argument("--output_dir", default='./results', type=str,help="Output directory for video and metric results")
-
     parser.add_argument("--face_sr", action='store_true', help='Face super-resolution (Optional).')
 
     opt = parser.parse_args()
