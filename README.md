@@ -25,7 +25,7 @@ Please install the VVC reference software (VTM) and FFmpeg by following their of
 
 Please download the pretrained weights from the link below and place the file inside the `./ckpt` directory:
 
-https://drive.google.com/file/d/1AWQzCKeRCfsDdihFIFCxA0VBUFUzuB4O/view?usp=sharing
+[https://drive.google.com/file/d/1AWQzCKeRCfsDdihFIFCxA0VBUFUzuB4O/view?usp=sharing](https://drive.google.com/file/d/1PHAtbO4hbL15F9SYtUamuQMJYsUkovHQ/view?usp=sharing)
 
 ## 🚀 Inference
 
